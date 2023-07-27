@@ -1,86 +1,33 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
-
-# Getting Started
-
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
-
-## Step 1: Start the Metro Server
-
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
-
-To start Metro, run the following command from the _root_ of your React Native project:
-
-```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
 ## NOTES
-One Should GIVE PERMISION 
->> GOTO> Settings/App Setting/Permisions/camera and microphone Permissions (ALLOWED)
+One Should GIVE PERMISIONS IN CASE OF ANDROID BY  
+>> GOTO> Settings/App Setting/StreamMe/Permisions/camera and microphone Permissions (ALLOWED)
 
 Then Just Click On Join....
 
 ## SCRIPS FOR TEST
 <--------SCRIPT FOR AUTO JOIN-------->
 
-    // GO TO THIS LINK
+   >GO TO THIS LINK
 https://webdemo.agora.io/basicLive/index.html#
 
 
->> Goto Link Then Open Console And Past Given Script According To Your Need
-`
-    // JOIN AS AUDIENCE
+Then Open Console And Past Given Script According To Your Need
+
+
+JOIN AS AUDIENCE
+```
 document.getElementById("appid").value = "17e6521267864da484530f95aa4de51b";
 document.getElementById("token").value = "007eJxTYLia/kGf04LZzMZtB+viA4uF4jIuxSZF3flYNP+M/J6c1ikKDIbmqWamRoZGZuYWZiYpiSYWJqbGBmmWpomJJimppoZJN0wPpTQEMjLM+7qSlZEBAkF8foaS1OKSzLz04JKi1MRc31QGBgBv6SOj";
 document.getElementById("channel").value = "testingStreamMe";
 document.getElementById("lowLatency").click()
-`
+```
 
-`
-    // JOIN AS HOST
+ JOIN AS HOST
+```
 document.getElementById("appid").value = "17e6521267864da484530f95aa4de51b";
 document.getElementById("token").value = "007eJxTYLia/kGf04LZzMZtB+viA4uF4jIuxSZF3flYNP+M/J6c1ikKDIbmqWamRoZGZuYWZiYpiSYWJqbGBmmWpomJJimppoZJN0wPpTQEMjLM+7qSlZEBAkF8foaS1OKSzLz04JKi1MRc31QGBgBv6SOj";
 document.getElementById("channel").value = "testingStreamMe";
 document.getElementById("host-join").click()
-`s
+```
+`
